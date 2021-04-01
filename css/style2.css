@@ -1,0 +1,291 @@
+/*ALL*/
+@font-face {
+         font-family: "Font Digital";
+         src: url('font/Gaston Villa.ttf');
+         src: url('font/Poppins.ttf');
+}
+*{
+	font-family: "Poppins";
+	box-sizing: border-box;
+}
+
+html {
+	position: relative;
+}
+h5,p {
+	color: white;
+}
+section {
+	min-height: 250px;
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+hr.line{
+	border: 1px solid;
+	border-image: linear-gradient(45deg, #f00081, #00b5f0) 1;
+	margin-left: -10px;
+}
+.more .row hr.line2{
+	border: 3px solid;
+	border-image: linear-gradient(45deg, #f00081, #00b5f0) 1;
+}
+/*END ALL*/
+
+
+/*HEADER*/
+.header {
+	width: 100%;
+	height: 645px;
+	background: #47515d;
+}
+.header h1 {
+	color: white;
+}
+.header hr {
+	border-bottom: 2px solid white;
+	width: 220px;
+	margin-top: -5px;
+	margin-bottom: -10px;
+}
+.header .row img {
+	padding-top: 130px;
+	width: 450px;
+	height: auto;
+	z-index: 2;
+}
+.about .row button,
+.more .row button,
+.header .row button{
+	height: 35px;
+	width: auto;
+	color: white;
+	font-size: 12px;
+	top: 250px;
+	left: 60px;
+	border: none;
+	background: transparent;
+	outline:none;
+	border: 2px solid;
+	border-image: linear-gradient(45deg, #f00081, #00b5f0) 1;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+.info .row button:hover,
+.about .row button:hover,
+.header .row button:hover{
+	transform: scale(1.1);
+	background: transparent;
+	border: 2px solid white;
+	color: #fff;
+	outline-color: blue;
+}
+/*END HEADER*/
+
+
+/*NAVBAR*/
+.container a{
+	font-family: 'Gaston Villa';
+	font-size: 30px;
+}
+.container .navbar-nav a {
+	font-family: "Poppins";
+	font-size: 20px;
+}
+.container  ul li a{
+	transition: 0.3s;
+}
+
+.row h2 {
+	margin-top: 20px;
+}
+
+.row hr {
+	border-bottom: 2px solid grey;
+	width: 180px;
+	margin-bottom: 20px;
+}
+/*END NAVBAR*/
+
+/*SKILL*/
+.skill{
+	background-color:#2d3949;
+}
+.skill .row h5{
+	margin-bottom: 30px;
+}
+.skill .row img{
+	width: 150px;
+	height: auto;
+	margin: 20px 0px 0px 0px;
+}
+.skill .row .cc p{
+	margin: 10px 0px 0px 0px;
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99;
+}
+.cc {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+/*SKILL*/
+
+/*SERVICES*/
+.services{
+	background-color:#2d3949;
+}
+.services .row img{
+	margin: 30px 0px 0px 0px;
+	width: auto;
+	height: 40px;
+}
+.services .row h6{
+	margin: 10px 0px 10px 0px;
+	color: white;
+}
+.services .row p{
+	padding: 0px 50px 0px 50px;
+}
+/*END SERVICES*/
+
+/*CONTACT*/
+.contact,
+.upload {
+	background-color:#2d3949; 
+}
+.contact .row .form-group input,
+.contact .row .form-group textarea{
+	border: none;
+	outline: none;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	border-radius: 0px;
+	background: transparent;
+}
+.contact button{
+	height: 35px;
+	width: 100px;
+	color: white;
+	font-size: 12px;
+	top: 250px;
+	left: 60px;
+	border: none;
+	background: transparent;
+	outline:none;
+	border: 1px solid white;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+.contact button:hover{
+	transform: scale(1.1);
+	background: rgba(255,255,255,0.5);
+	border: 1px solid;
+	border-image: linear-gradient(45deg, #f00081, #00b5f0) 1;
+	color: #fff;
+	outline-color: blue;
+}
+/*END CONTACT*/
+
+
+/*PORTFOLIO*/
+.portfolio {
+	background: #47515d;
+}
+.portfolio .row .cc img{
+	transition: 0.3s;
+	margin: 0px 0px 25px 0px;
+}
+.portfolio .row .cc img:hover{
+	transform: scale(1.1);
+	filter: blur(1px);
+	opacity: 60%;
+}
+.img-tamnel {
+	background-color:transparent;
+	margin: 5px 0px 5px 0px;
+	border:1px solid;
+	border-image: linear-gradient(45deg, #f00081, #00b5f0) 1;
+	max-width:100%;
+	height:auto;
+}
+.portfolio .row .cc p{
+  position: absolute;
+  color: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  z-index: 99;
+}
+.portfolio .row .cc:hover p{
+	pointer-events: none;
+	color: white;
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.portfolio .row .cc a:hover{
+	color: red;
+}
+.cc {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+/*END PORTFOLIO*/
+
+
+/*ABOUT*/
+.about {
+	background: #47515d;
+}
+.about .row .col-sm-2 h5{
+	padding-top: 100px;
+}
+.about .row img{
+	width: 500px;
+	height: auto;
+	margin: -170px 0px -20px 0px;
+}
+/*END ABOUT*/
+
+
+/*MORE*/
+.more {
+	background: #47515d;
+	min-height: 350px;
+}
+.more .row img{
+	width: 40px;
+	margin-top: -20px;
+	transition: 0.2s;
+}
+.more .row img:hover {
+	transform: scale(1.2);
+}
+.more .row p{
+	padding: 0px 50px 0px 50px;
+}
+/*END MORE*/
+
+
+/*FOOTER*/
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 70px;
+	padding-top: 25px;
+	background: #2d3949;
+	color: #fff;
+	font-size: 13px;
+}
+/*END FOOTER*/
+
+/*====================================*/
